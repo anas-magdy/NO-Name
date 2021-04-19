@@ -1,0 +1,290 @@
+body
+{
+    
+}
+header
+{
+   height: auto;
+   width: 100%;
+}
+.video-background
+{
+    z-index: -1;
+    position: relative;
+    right: 0px;
+    bottom: 0px;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    height: auto;
+}
+
+.navbar
+{
+    background-color: #000;
+}
+
+.navbar-brand
+{
+    font-size: 32px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: cursive
+}
+
+li 
+{
+    font-size: 20px;
+    margin-left: 20px;
+    font-style: italic;
+  
+}
+li:hover{
+    font-size: 25px;
+    background-color: rgba(0,0,0,0.629);
+    transition: 0.8s;
+    border-radius:20px ;
+}
+
+.active{
+    border-radius: 7px ;
+    background-color:#CCA180;
+}
+
+
+.section-1
+{
+    height: auto;
+    padding-bottom: 150px;
+    background-color: rgba(0, 0, 0, .5);
+    text-align: center;
+}
+
+.section-1 .row
+{
+    justify-content: space-around;
+    max-width: 99%;
+
+}
+.swiper-container 
+{
+    width: 400px;
+    height: 400px;
+    position: relative;
+    margin-top: 60px;
+    display: inline-block;
+}
+  .swiper-slide
+   {
+    background-position: center;
+    background-size: cover;
+  }
+h1
+{
+    color: brown;
+    font-style: italic;
+    font-size: 50px;
+}
+hr
+{
+    width: 200px;
+    
+}
+.hr2
+{
+    width: 150px;
+}
+.belal
+{
+    margin: 20px;
+    height: auto;
+    font-family: unset ;
+    font-size: 20px;
+    border-radius:50px  ;
+    text-align: center;
+    padding: 20px;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.877);
+    border: 1px solid black;
+}
+
+
+span
+{
+    color: brown;
+}
+.card-img-top
+{
+    height: 427px;;
+}
+.card-title
+{
+    color: #d52a2a;
+
+}
+.card
+{
+    border:2px solid white ;
+}
+.card-body
+{
+    background-color: #ebebeb;
+}
+.hesham
+{
+    padding-top: 100px;
+    color: brown;
+    font-style: italic;
+    font-size: 50px;
+    text-align: center;
+}
+.section-1 .cards .row
+{
+    justify-content: center;
+    margin-left: 50px;
+    max-width: 99%;
+}
+.section-1 .cards .row .col
+{
+    margin-top: 30px;
+}
+
+.section-2
+{
+    background-color: black;
+    height: auto;
+    perspective: 1000px;
+    padding-top: 50px;
+}
+.section-2 .col img
+{
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    transform-style: preserve-3d;
+    transition: all ease-in-out .5s;
+}
+.section-2 .col img:hover
+{
+    animation: swing 1s infinite ease-in-out;
+    margin-top: 20px;
+}
+.mr
+{
+    padding-right: 50px;
+}
+@keyframes swing
+{
+    0% {
+        transform: translateY(0px);   
+     }
+    25% {
+        transform: translateY(20px);
+        }
+    50% {
+        transform: translateY(-20px);   
+     }
+     100% {
+         transform: translateY(0px);
+     }
+  
+}
+.f-1
+{
+    height: 300px;
+}
+.f-2
+{
+    height: 800px;
+}
+.f-3
+{
+    height: 340px;
+}
+.f-4
+{
+    height: 500px;
+}
+.s-1
+{
+    height: 520px;
+}
+.s-2
+{
+    height: 400px;
+}
+.s-3
+{
+    height: 350px;
+}
+.s-4
+{
+    height: 440px;
+}
+.Read-more
+
+{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(178, 167, 70);
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 1px solid yellow;
+}
+.Read-more:hover
+{
+    transform: rotateY(360deg) ;
+    transition: all ease-in-out .5s;
+
+}
+.paragraph
+{
+    display: none;
+    color: white;
+}
+.footer{
+    /*    margin-top: 30px;*/
+        background-color: black;
+        color: white;
+        height: auto;
+    }
+    
+    /*fontawesome at the footer*/
+    .fontawesome1,.fontawesome2,.fontawesome3{
+        font-size: 40px;
+        color:#B10923;
+        padding: 7px;
+        border-radius: 50px
+    }
+    /*hover over fontawesome*/
+    a:hover{
+        color:#b8b8b8;
+    }
+    
+    /*column 1 at the footer*/
+    .column1{
+        margin-top: 50px;
+    }
+    /*header in column 1 at the footer*/
+    .column1 h2{
+        font-family: Monospace;
+        font-style: italic;
+        font-size: 40px;
+    }
+    
+    /*column 2 at the footer*/
+    .column2{
+        margin-top: 60px;
+        padding-left: 30px;
+    }
+    /*move pharagraph in column 2 at the footer*/
+    .column2 p
+    {
+        margin-top: 40px;
+    }
+    .row
+    {
+        margin-top: 0px;
+    }
+     /*end footer*/
